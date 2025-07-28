@@ -6,9 +6,7 @@ import { PlusIcon } from "@radix-ui/react-icons";
 export default function HomePage() {
   return (
     <div>
-      <Button icon={<PlusIcon className="h-5 w-5 text-white" />}>
-        Hire me
-      </Button>
+      <Button icon={PlusIcon}>Hire me</Button>
     </div>
   );
 }
