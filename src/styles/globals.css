@@ -1,1 +1,9 @@
-@tailwind utilities;
+@import "tailwindcss";
+
+:root {
+  --primary: oklch(45.684% 0.15476 29.333);
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+}

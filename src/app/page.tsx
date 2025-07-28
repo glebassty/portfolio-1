@@ -1,3 +1,10 @@
+// page.tsx
+
 export default function HomePage() {
-  return <div className="bg-primary p-4 text-white">Привет!</div>;
+  return (
+    <div>
+      <div className="bg-primary p-4 text-green-500">Привет!</div>
+      <div className="text-primary">Привет!</div>
+    </div>
+  );
 }
