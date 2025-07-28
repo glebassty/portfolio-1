@@ -21,10 +21,14 @@ export function Button({
 }: ButtonProps) {
   return (
     <button
-      className={cn("bg-accent flex justify-center", className)}
+      className={cn(
+        "bg-accent border-secondary flex items-center rounded-lg border-[1px]",
+        className,
+      )}
       {...props}
     >
       <p className="text-text-primary px-3 py-2">{children}</p>
+      <div className="bg-secondary w-[1px] self-stretch" />
       <div className="pt-3.5 pr-3 pb-3.5 pl-2">
         <Icon className="text-text-primary h-5 w-5" />
       </div>
