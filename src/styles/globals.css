@@ -1,12 +1,18 @@
 @import "tailwindcss";
 
+
 :root {
   --primary: #e63e21;
   --secondary: #161616;
+  --accent: #e63e21;      /* CTA / Active / Кнопки */
+  --color-bg: #161616;          /* Фоновый (dark) */
+  --color-fg: #ffffff;          /* Текстовый (на темном) */
+  --color-muted: #999999;       /* Второстепенный текст */
 }
 
 @theme inline {
   --color-primary: var(--primary);
+  --color-accent: var(--accent);
   --color-secondary: var(--secondary);
 }
 
