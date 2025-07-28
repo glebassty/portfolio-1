@@ -16,7 +16,7 @@ const geist = Geist({
   variable: "--font-geist-sans",
 });
 
-// changes
+// Проверка изменений в файле
 
 export default function RootLayout({
   children,
