@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --primary: oklch(45.684% 0.15476 29.333);
+  --primary: #e63e21;
+  --secondary: #161616;
 }
 
 @theme inline {
   --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
 }
