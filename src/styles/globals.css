@@ -6,7 +6,7 @@
   --secondary: #161616;
   --accent: #e63e21;      /* CTA / Active / Кнопки */
   --color-bg: #161616;          /* Фоновый (dark) */
-  --text-first: #ffffff;          /* Текстовый (на темном) */
+  --text-primary: #ffffff;          /* Текстовый (на темном) */
   --color-muted: #999999;       /* Второстепенный текст */
 }
 
@@ -14,7 +14,7 @@
   --color-primary: var(--primary);
   --color-accent: var(--accent);
   --color-secondary: var(--secondary);
-  --color-text-first: var(--secondary);
+  --color-text-primary: var(--text-primary);
 }
 
 

@@ -1,5 +1,6 @@
 // src/components/ui/Button.stories.tsx
-import type { Meta, StoryObj } from "@storybook/react";
+
+import type { Meta, StoryObj } from "@storybook/nextjs";
 import { Button } from "./Button";
 import { PlusIcon } from "@radix-ui/react-icons";
 
@@ -21,6 +22,6 @@ export const Default: Story = {
 export const WithIcon: Story = {
   args: {
     children: "Hire me",
-    icon: <PlusIcon className="h-5 w-5 text-white" />,
+    icon: PlusIcon, // ✅ передаём сам компонент
   },
 };
