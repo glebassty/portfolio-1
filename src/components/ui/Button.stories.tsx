@@ -16,6 +16,7 @@ type Story = StoryObj<typeof Button>;
 export const Default: Story = {
   args: {
     children: "Hire me",
+    icon: PlusIcon, // ✅ передаём сам компонент
   },
 };
 

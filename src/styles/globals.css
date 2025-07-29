@@ -8,6 +8,7 @@
   --color-bg: #161616;          /* Фоновый (dark) */
   --text-primary: #ffffff;          /* Текстовый (на темном) */
   --color-muted: #999999;       /* Второстепенный текст */
+  --font-inter: 'Inter', sans-serif;
 }
 
 @theme inline {
@@ -15,6 +16,7 @@
   --color-accent: var(--accent);
   --color-secondary: var(--secondary);
   --color-text-primary: var(--text-primary);
+  --font-inter: var(--font-inter);
 }
 
 
