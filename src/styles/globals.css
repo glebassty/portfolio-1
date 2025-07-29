@@ -4,11 +4,10 @@
 :root {
   --primary: #e63e21;
   --secondary: #161616;
-  --accent: #e63e21;      /* CTA / Active / Кнопки */
-  --color-bg: #161616;          /* Фоновый (dark) */
-  --text-primary: #ffffff;          /* Текстовый (на темном) */
-  --color-muted: #999999;       /* Второстепенный текст */
-  --font-inter: 'Inter', sans-serif;
+  --accent: #e63e21;    
+  --color-bg: #161616;      
+  --text-primary: #ffffff;    
+  --color-muted: #999999; 
 }
 
 @theme inline {
@@ -17,6 +16,7 @@
   --color-secondary: var(--secondary);
   --color-text-primary: var(--text-primary);
   --font-inter: var(--font-inter);
+  --font-myFont: var(--font-myFont);
 }
 
 
