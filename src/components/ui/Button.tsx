@@ -22,17 +22,17 @@ export function Button({
   return (
     <button
       className={cn(
-        "bg-accent border-secondary flex items-center rounded-lg border-[1px]",
+        "bg-accent border-secondary text-text-primary flex items-center rounded-lg border-[1px]",
         className,
       )}
       {...props}
     >
-      <p className="text-text-primary font-inter px-3 py-2 text-base font-medium">
+      <p className="py-3 pr-2.5 pl-2 text-base sm:py-2.5 sm:pr-1.5 sm:pl-2.5 sm:text-xs">
         {children}
       </p>
       <div className="bg-secondary w-[1px] self-stretch" />
-      <div className="xs:pt-2 xs:pr-2 xs:pb-2 xs:pl-1.5 pt-3.5 pr-3 pb-3.5 pl-2">
-        <Icon className="text-text-primary h-3.5 w-3.5" />
+      <div className="py-3.5 pr-3 pl-2 sm:py-3 sm:pr-2.5 sm:pl-2">
+        <Icon className="h-3.5 w-3.5 sm:h-2 sm:w-2" />
       </div>
     </button>
   );
