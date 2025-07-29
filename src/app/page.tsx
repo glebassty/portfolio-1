@@ -14,6 +14,9 @@ export default function HomePage() {
         Radix UI for the button component and includes a custom icon from Radix
         s icon set.
       </p>
+      <p className="">
+        simple Next.js application styled with Tailwind CSS. It uses
+      </p>
     </div>
   );
 }

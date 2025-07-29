@@ -14,7 +14,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${myFont.className}`}>
+    <html lang="en" className={`${inter.variable} ${myFont.variable}`}>
       <body>{children}</body>
     </html>
   );
