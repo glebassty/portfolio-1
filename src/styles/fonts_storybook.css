@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./fonts/pricedown/Pricedown-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-myFont: 'MyFont', sans-serif;
+}

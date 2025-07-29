@@ -22,7 +22,7 @@ export function Button({
   return (
     <button
       className={cn(
-        "font-inter bg-accent border-secondary text-text-primary flex items-center rounded-lg border-[1px]",
+        "font-myFont bg-accent border-secondary text-text-primary flex items-center rounded-lg border-[1px]",
         className,
       )}
       {...props}
