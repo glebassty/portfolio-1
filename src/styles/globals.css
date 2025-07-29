@@ -8,6 +8,8 @@
   --text-secondary: #C0C0C0; 
   --bg-primary: #1B1B1B;
   --border-primary: #262626;
+  --hover-primary: #594c4c;
+  --hover-secondary: #E4643F;
 }
 
 @theme inline {
@@ -18,6 +20,9 @@
   --color-bg-primary: var(--bg-primary);
   --color-border-primary: var(--border-primary);
   
+  --color-hover-primary: var(--hover-primary);
+  --color-hover-secondary: var(--hover-secondary);
+
   --font-inter: var(--font-inter);
   --font-myFont: var(--font-myFont);
 }
