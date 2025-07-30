@@ -14,7 +14,7 @@ export const Label = ({
   return (
     <div
       className={cn(
-        "bg-primary text-text-secondary border-border-primary flex inline-flex cursor-pointer items-center rounded-2xl border-[1px] px-2.5 py-1.5 transition-all duration-300 ease-in-out hover:underline sm:px-4.5",
+        "bg-primary text-text-secondary border-border-primary inline-flex cursor-pointer items-center rounded-2xl border-[1px] px-2.5 py-1.5 transition-all duration-300 ease-in-out hover:underline sm:px-4.5",
         className,
       )}
       {...props}
