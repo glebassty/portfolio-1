@@ -7,32 +7,27 @@ import { cn } from "@/lib/utils";
 type CardImageProps = {
   imageSrc: string;
   imageAlt: string;
-  imageWidth?: number;
-  imageHeight?: number;
+  classNameImage: string;
 } & React.HTMLAttributes<HTMLDivElement> &
   CardTitleProps;
 
 export const CardImage = ({
   imageSrc,
   imageAlt,
-  imageWidth = 360,
-  imageHeight = 300,
   className,
+  classNameImage,
   ...cardTitleProps
 }: CardImageProps) => {
   return (
-    <div className={cn("flex flex-col gap-2", className)}>
+    <div className={cn("bg-card flex flex-col", className)}>
       <CardTitle
         {...cardTitleProps}
         className="flex items-center justify-between"
       />
-      <Image
-        src={imageSrc}
-        alt={imageAlt}
-        width={imageWidth}
-        height={imageHeight}
-        className="rounded-2xl object-cover"
-      />
+
+      <div className={cn("relative overflow-hidden", classNameImage)}>
+        <Image src={imageSrc} alt={imageAlt} fill className="object-contain" />
+      </div>
     </div>
   );
 };

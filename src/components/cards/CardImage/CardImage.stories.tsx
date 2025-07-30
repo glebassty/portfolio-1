@@ -16,18 +16,31 @@ export const Default: Story = {
   args: {
     imageSrc: "/img/group_1.png",
     imageAlt: "Image of a group",
-    imageWidth: 360,
-    imageHeight: 300,
-    title: "Card Title",
-    description: "This is a description of the card.",
+    classNameImage: "w-[360px] h-[240px]",
+    title: "AI Music product",
+    description: "UX Case study",
     children: <IconArrow />,
   },
 };
-export const WithLongImage: Story = {
+
+export const WithMap: Story = {
+  args: {
+    imageSrc: "/img/group_2.png",
+    imageAlt: "AI Map Redesign",
+    classNameImage: "",
+    title: "AI Map redesign",
+    description: "UX Case study",
+    children: <IconArrow />,
+  },
+};
+
+export const WithPhone: Story = {
   args: {
     imageSrc: "/img/product.png",
-    imageAlt: "Product Image",
-    imageWidth: 360,
-    imageHeight: 300,
+    imageAlt: "iOS Mobile App",
+    classNameImage: "aspect-[2/1]",
+    title: "iOS Mobile app",
+    description: "Product develop",
+    children: <IconArrow />,
   },
 };
