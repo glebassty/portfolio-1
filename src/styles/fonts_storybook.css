@@ -6,6 +6,7 @@
 }
 
 :root {
-  --font-myFont: 'MyFont', sans-serif;
+
   --font-inter: 'Inter', sans-serif;
+  --font-myFont: 'MyFont', sans-serif;
 }

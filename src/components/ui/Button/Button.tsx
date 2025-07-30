@@ -1,17 +1,10 @@
-import {
-  type ButtonHTMLAttributes,
-  type DetailedHTMLProps,
-  type ElementType,
-} from "react";
+import { type ButtonHTMLAttributes, type ElementType } from "react";
 import { cn } from "@/lib/utils";
 
-type ButtonProps = DetailedHTMLProps<
-  ButtonHTMLAttributes<HTMLButtonElement>,
-  HTMLButtonElement
-> & {
+type ButtonProps = {
   icon: ElementType;
   dividerClassName?: string;
-};
+} & ButtonHTMLAttributes<HTMLButtonElement>;
 
 export function Button({
   icon: Icon,

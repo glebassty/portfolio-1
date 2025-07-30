@@ -23,7 +23,8 @@ export const Secondary: Story = {
   args: {
     children: "Copy Email",
     icon: CopyIcon,
-    className: "bg-primary border-border-primary hover:bg-hover-primary",
+    className:
+      "bg-primary border-border-primary hover:bg-hover-primary text-text-secondary",
     dividerClassName: "bg-border-primary",
   },
 };

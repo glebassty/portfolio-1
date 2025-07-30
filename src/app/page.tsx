@@ -1,4 +1,5 @@
 // page.tsx
+"use client";
 
 import { Button } from "@/components/ui/Button/Button";
 import { PlusIcon } from "@radix-ui/react-icons";
@@ -9,9 +10,10 @@ export default function HomePage() {
     <div>
       <Button icon={PlusIcon}>Hire me</Button>
       <Button
-        className="bg-primary border-border-primary hover:bg-hover-primary"
+        className="bg-primary border-border-primary hover:bg-hover-primary text-text-secondary"
         dividerClassName="bg-border-primary"
         icon={CopyIcon}
+        onClick={() => console.log("Clicked CopyIcon!")}
       >
         Copy Email
       </Button>
