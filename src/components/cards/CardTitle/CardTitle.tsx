@@ -1,10 +1,5 @@
+import type { CardTitleProps } from "@/lib/types";
 import { cn } from "@/lib/utils";
-
-type CardTitleProps = {
-  title: string;
-  description: string;
-  classNameText?: string;
-} & React.HTMLAttributes<HTMLDivElement>;
 
 export const CardTitle = ({
   title,
