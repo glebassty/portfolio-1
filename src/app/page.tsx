@@ -2,6 +2,7 @@
 "use client";
 
 import { Button } from "@/components/ui/Button/Button";
+import { Label } from "@/components/ui/Label/Label";
 import { PlusIcon } from "@radix-ui/react-icons";
 import { CopyIcon } from "@radix-ui/react-icons";
 
@@ -17,6 +18,7 @@ export default function HomePage() {
       >
         Copy Email
       </Button>
+      <Label icon={PlusIcon}>Available for job</Label>
       <h1 className="font-myFont text-3xl">Welcome to my portfolio!</h1>
 
       <p className="font-inter text-xl">
