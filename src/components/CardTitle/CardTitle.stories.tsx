@@ -26,4 +26,9 @@ export const WithIcon: Story = {
     description: "Designing and prototyping",
     children: <IconArrow />,
   },
+  render: (args) => (
+    // <div className="bg-primary">
+    <CardTitle {...args} />
+    // </div>
+  ),
 };

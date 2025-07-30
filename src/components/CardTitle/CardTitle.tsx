@@ -25,7 +25,7 @@ export const CardTitle = ({
       <div className="flex flex-col items-stretch">
         <h2
           className={cn(
-            "text-text-primary hover:text-primary text-base transition-colors duration-300 ease-in-out sm:text-2xl",
+            "text-text-primary hover:text-secondary text-base transition-colors duration-300 ease-in-out sm:text-2xl",
             classNameText,
           )}
         >
