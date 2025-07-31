@@ -30,7 +30,7 @@ export const CardImage = ({
             src={imageSrc}
             alt={imageAlt}
             fill
-            className="object-contain"
+            className="object-contain object-top"
           />
         </div>
       </div>
