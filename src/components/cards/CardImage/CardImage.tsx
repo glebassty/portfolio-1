@@ -24,9 +24,15 @@ export const CardImage = ({
         {...cardTitleProps}
         className="flex items-center justify-between"
       />
-
-      <div className={cn("relative overflow-hidden", classNameImage)}>
-        <Image src={imageSrc} alt={imageAlt} fill className="object-contain" />
+      <div className="flex w-full justify-center">
+        <div className={cn("relative w-full overflow-hidden", classNameImage)}>
+          <Image
+            src={imageSrc}
+            alt={imageAlt}
+            fill
+            className="object-contain"
+          />
+        </div>
       </div>
     </div>
   );
