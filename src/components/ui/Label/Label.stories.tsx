@@ -6,7 +6,6 @@ import { Label } from "./Label";
 const meta: Meta<typeof Label> = {
   title: "ui/Label",
   component: Label,
-  tags: ["autodocs"],
 };
 
 export default meta;

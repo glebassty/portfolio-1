@@ -6,7 +6,6 @@ import { IconArrow } from "../../ui/IconArrow/IconArrow";
 const meta: Meta<typeof CardTitle> = {
   title: "cards/CardTitle",
   component: CardTitle,
-  tags: ["autodocs"],
 };
 
 export default meta;

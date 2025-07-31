@@ -4,7 +4,6 @@ import { BoxGradient } from "./BoxGradient";
 const meta: Meta<typeof BoxGradient> = {
   title: "ui/BoxGradient",
   component: BoxGradient,
-  tags: ["autodocs"],
 };
 
 export default meta;

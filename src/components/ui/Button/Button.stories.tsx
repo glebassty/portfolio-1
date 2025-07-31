@@ -4,9 +4,8 @@ import { PlusIcon, CopyIcon } from "@radix-ui/react-icons";
 import { Button } from "./Button";
 
 const meta: Meta<typeof Button> = {
-  title: "ui/Buttons/Button",
+  title: "ui/Button",
   component: Button,
-  tags: ["autodocs"],
 };
 
 export default meta;
