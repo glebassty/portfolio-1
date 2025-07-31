@@ -16,7 +16,7 @@ export function Button({
   return (
     <button
       className={cn(
-        "bg-secondary border-primary text-text-primary hover:bg-hover-secondary flex cursor-pointer items-center rounded-lg border-[1px] transition-colors duration-300 ease-in-out",
+        "bg-secondary border-primary text-text-primary hover:bg-hover-secondary flex cursor-pointer items-center rounded-lg border-2 transition-colors duration-300 ease-in-out",
         className,
       )}
       {...props}
