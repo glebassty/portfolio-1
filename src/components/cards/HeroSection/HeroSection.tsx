@@ -18,14 +18,20 @@ export const HeroSection = ({
   return (
     <div className="flex flex-col gap-17.5">
       <div className="flex items-center justify-between">
-        <h2>{position}</h2>
+        <h2 className="text-text-secondary test-base font-medium sm:text-2xl">
+          {position}
+        </h2>
         <Label icon={CircleIcon}>AVAILABLE FOR JOB</Label>
       </div>
       <div className="flex items-center justify-between">
         <div>
           <div>
-            <h1 className="mb-4">{name}</h1>
-            <p className="mb-7">{description}</p>
+            <h1 className="text-text-primary mb-4 text-2xl font-semibold sm:text-4xl">
+              {name}
+            </h1>
+            <p className="text-normal mb-7 text-base sm:text-xl">
+              {description}
+            </p>
             <div className="flex items-center gap-3.5">
               <Button icon={PlusIcon} variant="primary">
                 Hire me
