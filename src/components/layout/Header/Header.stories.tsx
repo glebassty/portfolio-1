@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/nextjs";
 import { Header } from "./Header";
 
 const meta: Meta<typeof Header> = {
-  title: "ui/Header",
+  title: "layouts/Header",
   component: Header,
 };
 

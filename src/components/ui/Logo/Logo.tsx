@@ -14,7 +14,8 @@ export const Logo = ({ className = "text-secondary" }: LogoProps) => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 40 40"
-        className="h-full w-full"
+        className="h-6.5 w-6.5 sm:h-10 sm:w-10"
+        // className="h-full w-full"
       >
         <path
           d="M0 11.9149C0 9.79976 1.71465 8.08511 3.82979 8.08511C5.94492 8.08511 7.65957 9.79976 7.65957 11.9149C7.65957 14.03 5.94492 15.7447 3.82979 15.7447C1.71465 15.7447 0 14.03 0 11.9149Z"

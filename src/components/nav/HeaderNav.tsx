@@ -3,15 +3,21 @@ import React from "react";
 
 export const HeaderNav = () => {
   return (
-    <ul className="hover:primary text-secondary flex justify-between uppercase transition-colors duration-300 ease-in-out active:font-bold">
+    <ul className="text-text-secondary flex w-full justify-between text-sm uppercase sm:text-xl">
       <Link href={"#"}>
-        <li>About</li>
+        <li className="hover:text-secondary transition-colors duration-300 ease-in-out active:font-bold">
+          About
+        </li>
       </Link>
       <Link href={"#"}>
-        <li>Portfolio</li>
+        <li className="hover:text-secondary transition-colors duration-300 ease-in-out active:font-bold">
+          Portfolio
+        </li>
       </Link>
       <Link href={"#"}>
-        <li>Contacts</li>
+        <li className="hover:text-secondary transition-colors duration-300 ease-in-out active:font-bold">
+          Contacts
+        </li>
       </Link>
     </ul>
   );
