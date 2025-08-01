@@ -8,7 +8,7 @@ export const Avatar = ({ className, ...props }: AvatarProps) => {
   return (
     <div
       className={cn(
-        "border-border-avatar b bg-bg-avatar relative h-44.5 w-44.5 rounded-full border-2 p-2.5",
+        "border-border-avatar b bg-bg-avatar relative h-20 w-20 rounded-full border-2 p-1 sm:h-44.5 sm:w-44.5 sm:p-2.5",
         className,
       )}
       {...props}
