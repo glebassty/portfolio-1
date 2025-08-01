@@ -1,6 +1,8 @@
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+
+// TODO  доделать тут с логикой
 
 const LINKS = [
   { id: 1, href: "#", title: "About" },
@@ -9,6 +11,7 @@ const LINKS = [
 ];
 
 export const HeaderNav = () => {
+  //   const [activeLink, setActiveLink] = useState("#about");
   return (
     <>
       <ul className="text-text-secondary flex w-full justify-between text-sm uppercase sm:text-xl">
