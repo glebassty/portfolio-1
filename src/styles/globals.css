@@ -11,6 +11,8 @@
   --border-primary: #3a3a3a;
   --hover-primary: #100303;
   --hover-secondary: #E4643F;
+  --bg-avatar:#2C2C2C;
+  --border-avatar: #3F3E3E;
 }
 
 @theme inline {
@@ -24,6 +26,9 @@
 
   --color-hover-primary: var(--hover-primary);
   --color-hover-secondary: var(--hover-secondary);
+
+  --color-bg-avatar: var(--bg-avatar);
+  --color-border-avatar: var(--border-avatar);
 
   --font-myFont: var(--font-myFont);
   --font-inter: var(--font-inter);
