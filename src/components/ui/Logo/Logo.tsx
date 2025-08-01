@@ -6,7 +6,7 @@ export const Logo = ({ className = "text-secondary" }: LogoProps) => {
   return (
     <div
       className={cn(
-        "border-border-primary bg-bg-primary relative h-11 w-11 rounded-full border-2 p-2 sm:h-16 sm:w-16 sm:p-3",
+        "border-border-primary bg-bg-primary relative flex h-11 w-11 items-center justify-center rounded-full border-2 p-2 sm:h-16 sm:w-16 sm:p-3",
         className,
       )}
     >
