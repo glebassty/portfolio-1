@@ -9,10 +9,12 @@ const LINKS = [
 
 export const FooterNav = () => {
   return (
-    <ul>
+    <ul className="flex gap-3">
       {LINKS.map((link) => (
         <Link href={link.href} key={link.id}>
-          <li>{link.title}</li>
+          <li className="hover:text-secondary active:text-secondary text-xl font-medium transition-colors duration-300 ease-in-out">
+            {link.title}
+          </li>
         </Link>
       ))}
     </ul>

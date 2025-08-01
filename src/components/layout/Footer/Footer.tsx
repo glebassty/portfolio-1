@@ -6,10 +6,10 @@ import { IconJarLogoIcon } from "@radix-ui/react-icons";
 
 export const Footer = () => {
   return (
-    <BoxGradient className="hidden items-center justify-between py-11 sm:flex">
-      <Copyright />
+    <BoxGradient className="hidden items-center justify-between px-11.5 py-11 sm:flex">
+      <Copyright>Portfolio 2024</Copyright>
       <FooterNav />
-      <Label icon={IconJarLogoIcon}>AVAILABLE FOR JOB</Label>
+      <Label icon={IconJarLogoIcon}>AVAILABLE for JOB</Label>
     </BoxGradient>
   );
 };
