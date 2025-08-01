@@ -1,7 +1,7 @@
 import { Avatar } from "@/components/ui/Avatar/Avatar";
 import { Button } from "@/components/ui/Button/Button";
 import { Label } from "@/components/ui/Label/Label";
-import { CircleIcon } from "@radix-ui/react-icons";
+import { CircleIcon, CopyIcon, PlusIcon } from "@radix-ui/react-icons";
 import React from "react";
 
 type HeroSectionProps = {
@@ -16,19 +16,23 @@ export const HeroSection = ({
   description,
 }: HeroSectionProps) => {
   return (
-    <div>
+    <div className="flex flex-col gap-17.5">
       <div className="flex items-center justify-between">
         <h2>{position}</h2>
-        <Label icon={CircleIcon}>fsd</Label>
+        <Label icon={CircleIcon}>AVAILABLE FOR JOB</Label>
       </div>
-      <div>
+      <div className="flex items-center justify-between">
         <div>
           <div>
-            <h1>{name}</h1>
-            <p>{description}</p>
-            <div>
-              <Button>fdsfs</Button>
-              <Button>fdsfs</Button>
+            <h1 className="mb-4">{name}</h1>
+            <p className="mb-7">{description}</p>
+            <div className="flex items-center gap-3.5">
+              <Button icon={PlusIcon} variant="primary">
+                Hire me
+              </Button>
+              <Button icon={CopyIcon} variant="secondary">
+                Copy Email
+              </Button>
             </div>
           </div>
         </div>

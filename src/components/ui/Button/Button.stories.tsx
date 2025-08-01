@@ -15,6 +15,7 @@ export const Primary: Story = {
   args: {
     children: "Hire me",
     icon: PlusIcon,
+    variant: "primary",
   },
 };
 
@@ -22,8 +23,6 @@ export const Secondary: Story = {
   args: {
     children: "Copy Email",
     icon: CopyIcon,
-    className:
-      "bg-primary border-border-primary hover:bg-hover-primary text-text-secondary",
-    dividerClassName: "bg-border-primary",
+    variant: "secondary",
   },
 };
