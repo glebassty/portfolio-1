@@ -16,6 +16,6 @@ export const Default: Story = {
     position: "Frontend Developer",
     name: "Giovanni Prestorichini",
     description:
-      "Hello, I'm Giovanni, a passionate frontend developer with a knack for creating beautiful and functional web applications. I love turning ideas into reality with code.",
+      "Hello, I'm Giovanni, a passionate frontend developer with a хуй",
   },
 };

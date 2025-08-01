@@ -24,22 +24,20 @@ export const HeroSection = ({
         <Label icon={CircleIcon}>AVAILABLE FOR JOB</Label>
       </div>
       <div className="flex items-center justify-between">
-        <div>
-          <div>
-            <h1 className="text-text-primary mb-4 text-2xl font-semibold sm:text-4xl">
-              {name}
-            </h1>
-            <p className="text-normal mb-7 text-base sm:text-xl">
-              {description}
-            </p>
-            <div className="flex items-center gap-3.5">
-              <Button icon={PlusIcon} variant="primary">
-                Hire me
-              </Button>
-              <Button icon={CopyIcon} variant="secondary">
-                Copy Email
-              </Button>
-            </div>
+        <div className="max-w-2xs">
+          <h1 className="text-text-primary mb-4 text-2xl font-semibold sm:text-4xl">
+            {name}
+          </h1>
+          <p className="text-text-secondary text-normal mb-7 text-base sm:text-xl">
+            {description}
+          </p>
+          <div className="flex items-center gap-3.5">
+            <Button icon={PlusIcon} variant="primary">
+              Hire me
+            </Button>
+            <Button icon={CopyIcon} variant="secondary">
+              Copy Email
+            </Button>
           </div>
         </div>
         <Avatar />
