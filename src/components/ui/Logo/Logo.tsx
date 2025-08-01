@@ -4,7 +4,12 @@ type LogoProps = {} & React.HTMLAttributes<HTMLDivElement>;
 
 export const Logo = ({ className = "text-secondary" }: LogoProps) => {
   return (
-    <div className={cn("relative h-10 w-10 rounded-full p-3", className)}>
+    <div
+      className={cn(
+        "border-border-primary bg-bg-primary relative h-11 w-11 rounded-full border-2 p-2 sm:h-16 sm:w-16 sm:p-3",
+        className,
+      )}
+    >
       <svg
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

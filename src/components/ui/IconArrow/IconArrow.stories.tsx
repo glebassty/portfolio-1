@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/nextjs";
 import { IconArrow } from "./IconArrow";
 
 const meta: Meta<typeof IconArrow> = {
-  title: "cards/IconArrow",
+  title: "ui/IconArrow",
   component: IconArrow,
 };
 
