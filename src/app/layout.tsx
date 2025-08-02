@@ -1,8 +1,9 @@
 // layout.tsx
-
 import "@/styles/globals.css";
 import { inter, myFont } from "../styles/fonts";
 import { type Metadata } from "next";
+import { Header } from "@/components/layout/Header/Header";
+import { Footer } from "@/components/layout/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -15,7 +16,13 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${inter.variable} ${myFont.variable}`}>
-      <body>{children}</body>
+      <body className="bg-primary">
+        <div className="container mx-auto px-6 py-6 sm:px-28 sm:py-16">
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }

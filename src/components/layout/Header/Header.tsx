@@ -1,3 +1,5 @@
+"use client";
+
 import { HeaderNav } from "@/components/nav/HeaderNav";
 import { Logo } from "@/components/ui/Logo/Logo";
 

@@ -1,32 +1,11 @@
 import { cn } from "@/lib/utils";
 import { CircleIcon } from "@radix-ui/react-icons";
 import { CardTitle } from "../CardTitle/CardTitle";
+import { WORKSECTION_DATA } from "@/lib/constants";
 
 type WorkSectionProps = {
   title: string;
 } & React.HTMLAttributes<HTMLDivElement>;
-
-// TODO прокидывать все данные через сторибук
-const JOBS = [
-  {
-    id: 1,
-    position: "Software Engineer",
-    years: "2022-2023",
-    company: "Tech Corp",
-  },
-  {
-    id: 2,
-    position: "Frontend Developer",
-    years: "2023-2024",
-    company: "Web Solutions",
-  },
-  {
-    id: 3,
-    position: "Backend Developer",
-    years: "2024-2025",
-    company: "Data Systems",
-  },
-];
 
 export const WorkSection = ({
   title,
@@ -46,7 +25,7 @@ export const WorkSection = ({
         <h3 className="text-text-secondary text-base sm:text-2xl">{title}</h3>
       </div>
       <div className="flex flex-col gap-5 sm:gap-9.5">
-        {JOBS.map((job) => (
+        {WORKSECTION_DATA.map((job) => (
           <CardTitle key={job.id} title={job.position} description={job.years}>
             {job.company}
           </CardTitle>

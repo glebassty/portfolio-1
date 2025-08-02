@@ -14,7 +14,7 @@ type Story = StoryObj<typeof HeroSection>;
 export const Default: Story = {
   args: {
     position: "Frontend Developer",
-    name: "Giovanni Prestorichini",
+    name: "Giovanni Prestoricсhini",
     description:
       "Hello, I'm Giovanni, a passionate frontend developer with a хуй",
   },

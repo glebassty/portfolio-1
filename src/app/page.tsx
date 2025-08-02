@@ -1,34 +1,57 @@
 // page.tsx
 "use client";
 
-import { Button } from "@/components/ui/Button/Button";
-import { Label } from "@/components/ui/Label/Label";
-import { PlusIcon } from "@radix-ui/react-icons";
-import { CopyIcon } from "@radix-ui/react-icons";
+import { CardImage } from "@/components/cards/CardImage/CardImage";
+import { HeroSection } from "@/components/cards/HeroSection/HeroSection";
+import { WorkSection } from "@/components/cards/WorkSection/WorkSection";
+import { BoxGradient } from "@/components/ui/BoxGradient/BoxGradient";
+import { IconArrow } from "@/components/ui/IconArrow/IconArrow";
 
 export default function HomePage() {
   return (
     <div>
-      <Button icon={PlusIcon}>Hire me</Button>
-      <Button
-        className="bg-primary border-border-primary hover:bg-hover-primary text-text-secondary"
-        dividerClassName="bg-border-primary"
-        icon={CopyIcon}
-        onClick={() => console.log("Clicked CopyIcon!")}
-      >
-        Copy Email
-      </Button>
-      <Label icon={PlusIcon}>Available for job</Label>
-      <h1 className="font-myFont text-3xl">Welcome to my portfolio!</h1>
-
-      <p className="font-inter text-xl">
-        This is a simple Next.js application styled with Tailwind CSS. It uses
-        Radix UI for the button component and includes a custom icon from Radix
-        s icon set.
-      </p>
-      <p className="">
-        simple Next.js application styled with Tailwind CSS. It uses
-      </p>
+      <HeroSection
+        position="Frontend Developer"
+        name="Giovanni Prestoricсhini"
+        description="Hello, I'm Giovanni, a passionate frontend developer with a хуй"
+      />
+      <div className="grid-cols-1 sm:grid-cols-2">
+        <div>
+          <WorkSection title="Work Experience" />
+          <CardImage
+            imageSrc="/img/product.png"
+            imageAlt="iOS Mobile App"
+            classNameImage="sm:w-[433px] sm:h-[620px] w-[239px] h-[342px] sm:mt-13.5 mt-6.5 overflow-hidden"
+            title="iOS Mobile app"
+            description="Product develop"
+          >
+            <IconArrow />
+          </CardImage>
+        </div>
+        <BoxGradient>Product design</BoxGradient>
+        <div className="grid-cols-2">
+          <BoxGradient>User Experience</BoxGradient>
+          <BoxGradient>NoCode develop</BoxGradient>
+        </div>
+        <CardImage
+          imageSrc="/img/product.png"
+          imageAlt="iOS Mobile App"
+          classNameImage="sm:w-[433px] sm:h-[620px] w-[239px] h-[342px] sm:mt-13.5 mt-6.5 overflow-hidden"
+          title="iOS Mobile app"
+          description="Product develop"
+        >
+          <IconArrow />
+        </CardImage>
+        <CardImage
+          imageSrc="/img/product.png"
+          imageAlt="iOS Mobile App"
+          classNameImage="sm:w-[433px] sm:h-[620px] w-[239px] h-[342px] sm:mt-13.5 mt-6.5 overflow-hidden"
+          title="iOS Mobile app"
+          description="Product develop"
+        >
+          <IconArrow />
+        </CardImage>
+      </div>
     </div>
   );
 }

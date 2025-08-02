@@ -49,15 +49,3 @@ export const WithPhone: Story = {
     children: <IconArrow />,
   },
 };
-
-// export const WithPhone: Story = {
-//   args: {
-//     imageSrc: "/img/product.png",
-//     imageAlt: "iOS Mobile App",
-//     classNameImage:
-//       "sm:w-[433px] sm:h-[886px] w-[239px] h-[489px] sm:mt-13.5 mt-6.5 pb-[70%]",
-//     title: "iOS Mobile app",
-//     description: "Product develop",
-//     children: <IconArrow />,
-//   },
-// };
