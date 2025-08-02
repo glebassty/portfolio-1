@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className="bg-primary">
         <div className="container mx-auto px-6 py-6 sm:px-28 sm:py-16">
           <Header />
-          <main>{children}</main>
+          <main className="py-3 sm:py-5">{children}</main>
           <Footer />
         </div>
       </body>

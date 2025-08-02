@@ -17,4 +17,10 @@ export const WORKSECTION_DATA = [
     years: "2024-2025",
     company: "Data Systems",
   },
+    {
+    id: 4,
+    position: "Fullstack Developer",
+    years: "2025-now",
+    company: "Global Tech",
+  },
 ];

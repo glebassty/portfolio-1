@@ -27,7 +27,7 @@ export const WorkSection = ({
       <div className="flex flex-col gap-5 sm:gap-9.5">
         {WORKSECTION_DATA.map((job) => (
           <CardTitle key={job.id} title={job.position} description={job.years}>
-            {job.company}
+            <p className="text-text-secondary">{job.company}</p>
           </CardTitle>
         ))}
       </div>
