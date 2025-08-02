@@ -16,7 +16,7 @@ export const Default: Story = {
     imageSrc: "/img/group_1.png",
     imageAlt: "Image of a group",
     classNameImage:
-      " sm:w-[360px] sm:h-[306px] w-[200px] h-[170px] sm:mt-18 mt-10",
+      "sm:w-[360px] sm:h-[306px] w-[200px] h-[170px] sm:mt-18 mt-10",
     title: "AI Music product",
     description: "UX Case study",
     children: <IconArrow />,
