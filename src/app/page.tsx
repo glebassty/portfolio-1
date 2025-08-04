@@ -12,7 +12,7 @@ export default function HomePage() {
     <div className="flex flex-col gap-3 sm:gap-5">
       <HeroSection
         position="Frontend Developer"
-        name="Giovanni Prestoricсhini"
+        name="Glenn Soonricher"
         description="Hello, I'm Giovanni, a passionate frontend developer with a хуй"
       />
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-5">
