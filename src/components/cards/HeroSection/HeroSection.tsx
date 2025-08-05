@@ -18,7 +18,7 @@ export const HeroSection = ({
   return (
     <div className="bg-bg-primary border-border-primary flex flex-col gap-10 rounded-2xl border-2 px-5.5 py-5.5 sm:gap-17.5 sm:px-10.5 sm:py-15">
       <div className="flex flex-col items-start justify-between sm:flex-row sm:items-center">
-        <h2 className="text-text-secondary test-base mb-3.5 font-medium sm:mb-0 sm:text-2xl">
+        <h2 className="text-text-secondary mb-3.5 text-base font-medium sm:mb-0 sm:text-2xl">
           {position}
         </h2>
         <Label icon={CircleIcon}>AVAILABLE FOR JOB</Label>
